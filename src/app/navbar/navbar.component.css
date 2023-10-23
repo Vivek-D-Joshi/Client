@@ -1,3 +1,16 @@
 .dropdown-toggle, .dropdown-item {
       cursor: pointer;
 }
+
+.gradient-custom {
+      /* fallback for old browsers */
+      background-color: #5b74e6;
+      /* Chrome 10-25, Safari 5.1-6 */
+      background-color: -webkit-linear-gradient(to right, rgba(102,126,234,0.5), rgba(232,23,187,0.5));
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-color: linear-gradient(to right, rgba(102,126,234,0.5), rgba(232,23,187,0.5))
+}
+
+.navbar{
+      height : 70px;
+}
