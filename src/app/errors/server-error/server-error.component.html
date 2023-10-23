@@ -1,0 +1,9 @@
+<h4>Internal Server error - refreshing the page will make error disappear</h4>
+<ng-container *ngIf="error">
+   <h5 class="text-danger">Error:{{error.statusCode}} - {{error.description}}</h5>
+   <p class="font-weight-bold">Something went wrong! - examine a request</p>
+   <p class="font-weight-bold">Stack Trace - </p>
+   <code class="mt-5" style="background-color: black;">
+      {{error.message}}
+   </code>
+</ng-container>

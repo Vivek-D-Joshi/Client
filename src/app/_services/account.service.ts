@@ -14,7 +14,7 @@ export class accountService {
   
   constructor(private http: HttpClient) { }
   
-  //To transform data or do some operations on data pipes are used.
+  //To transform data or do some operations on data, pipes are used.
   login(model:any){
     return this.http.post<User>(this.baseUrl+"Users/Login",model).pipe(
       map((response:User) => {
